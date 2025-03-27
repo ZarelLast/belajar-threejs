@@ -1,6 +1,6 @@
 <script setup>
 // import HelloWorld from './components/HelloWorld.vue'
-let data = "cihuy"
+let data = "cihuy";
 </script>
 
 <template>

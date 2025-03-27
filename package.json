@@ -14,8 +14,13 @@
   },
   "lint-staged": {
     "**/*.{vue,js,jsx,ts,tsx}": [
-      "eslint --ext .vue,.js,.jsx,.ts,.tsx --fix",
-      "prettier --write ."
+      "eslint --fix",
+      "prettier --write",
+      "git add"
+    ],
+    "**/*.{json,md,css}": [
+      "prettier --write",
+      "git add"
     ]
   },
   "dependencies": {
