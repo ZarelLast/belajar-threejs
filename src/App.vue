@@ -1,10 +1,11 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+let data = "cihuy"
 </script>
 
 <template>
   <div id="app">
-    
+    {{ console.log(data) }}
   </div>
   <!-- <div>
     <a href="https://vite.dev" target="_blank">
