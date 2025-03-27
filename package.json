@@ -13,7 +13,10 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "**/*.{vue,js,jsx,ts,tsx}": "eslint --ext .vue,.js,.jsx,.ts,.tsx --fix"
+    "**/*.{vue,js,jsx,ts,tsx}": [
+      "eslint --ext .vue,.js,.jsx,.ts,.tsx --fix",
+      "prettier --write ."
+    ]
   },
   "dependencies": {
     "three": "^0.174.0",
